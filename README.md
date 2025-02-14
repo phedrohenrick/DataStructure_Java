@@ -1,18 +1,14 @@
-## Getting Started
+## Sobre o repositório
+Este rpositório é destinado ao estudo de algorítmo e estrutura de dados, aprofundando os meus conhecimentos em cada Módulo que estaá em cada pacóte.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Anotações
 
-## Folder Structure
+Algumas anotações pertinentes sobre cada módulo foram feiras e ficarão disponíveis no link a seguir em uma pasta no notion:
 
-The workspace contains two folders by default, where:
+> - [PASTA DO NOTION](https://www.notion.so/Estrutura-de-dados-e-algor-tmos-com-Java-19a814c10bd8805da375d47d463f36c7)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O material servirá de suporte para necessidades futuras.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Execução
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Para executar o código, basta fazer o download do código principal e executar acompanhando o material escrito, criando, na classe aplicativo, os testes, caso não houver.
