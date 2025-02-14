@@ -1,7 +1,4 @@
 package modulos;
-
-import java.util.Arrays;
-
 public class Vetor {
 
     private String[] elementosVetor;
@@ -39,9 +36,7 @@ public class Vetor {
             this. elementosVetor[this.tamanho] = elemento;
         this.tamanho++;
         return true;
-
         }
-
         return false;
         
     } 
