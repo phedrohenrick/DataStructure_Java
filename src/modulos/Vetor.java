@@ -30,7 +30,7 @@ public class Vetor {
         
     // } 
 
-    public boolean adicionar(String elemento){
+    public boolean adiciona(String elemento){
         // preciso verificar se a capacidade do vetor não é menor que a quantidade de elementos
         if(this.tamanho < this.elementosVetor.length){ 
             this. elementosVetor[this.tamanho] = elemento;
@@ -63,6 +63,24 @@ public class Vetor {
        }
         return -1;//se nao exisistir o -1 representará que o item nao existe
     }
+
+    public boolean adiciona(int posicao, String elemento){
+           posicao = posicao-1; 
+        if(posicao<=0 && posicao>tamanho){
+            throw new IllegalArgumentException("Posição inválida");
+        }
+
+        //0 1 2 3 4 5
+       // a b c d + +
+
+        for(int i = this.tamanho-1; i>=posicao; i--){
+                this.elementosVetor[i+1] = this.elementosVetor[i]; //serve para nao perder a referencia do elemento que esta na posição que se quer adicionar
+        }
+        this.elementosVetor[posicao] = elemento; //coloca o elemento no lugar certo
+        this.tamanho++;
+
+         return true;
+     }
 
 
      

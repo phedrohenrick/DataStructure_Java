@@ -5,10 +5,13 @@ public class App {
 
         Vetor vetor = new Vetor(10);
         
-            vetor.adicionar("phedro");
-            vetor.adicionar("henrick");
-            vetor.adicionar("da silva");
-            vetor.adicionar("Leão");
+            vetor.adiciona("phedro");
+            vetor.adiciona("henrick");
+            vetor.adiciona("da silva");
+            vetor.adiciona("Leão");
+
+            vetor.adiciona(4, "marcelino");
+            vetor.adiciona(1, "jose");
          System.out.println(vetor.toString());
     
     }
