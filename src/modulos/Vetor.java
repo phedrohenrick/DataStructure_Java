@@ -53,6 +53,20 @@ public class Vetor {
         return this.elementosVetor[posicao];
     }
 
+    public int busca(String elemento){
+           
+       for(int i = 0; i<this.tamanho; i++){
+           if(this.elementosVetor[i].equals(elemento)){
+                return i; //se existir o elemento ele retorna a posição
+           }
+
+       }
+        return -1;//se nao exisistir o -1 representará que o item nao existe
+    }
+
+
+     
+
     @Override
     public String toString(){
 
